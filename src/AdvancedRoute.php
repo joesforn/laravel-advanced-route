@@ -29,7 +29,7 @@ class AdvancedRoute {
             }
         }
 
-        Route::get($path, $controllerClassName . '@anyIndex');
+        Route::get($path, $controllerClassName . '@index');
     }
 
     protected static function stringStartsWith($string, $match) {
